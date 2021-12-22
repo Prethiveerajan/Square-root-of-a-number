@@ -22,9 +22,16 @@ Developed by:
 RegisterNumber:  
 */
 ```
-
+def newto_n(num ,num_iter=100 ):
+    b=float(num)
+    for i in range(num_iter):
+        num=0.5*(num+(b/num))
+    return num
+num=int(input())
+print("Square root of the number:",newto_n(num))
+``
 ## Output:
-![gcd of two number](gcd.png)
+![gcd of two number](12.png)
 
 
 ## Result:
