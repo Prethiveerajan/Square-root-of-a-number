@@ -18,10 +18,10 @@ To write a program to find the square root of a number.
 ```
 /*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
+Developed by: Prethiveerajan P
+RegisterNumber:  21500340
 */
-```
+````````
 def newto_n(num ,num_iter=100 ):
     b=float(num)
     for i in range(num_iter):
